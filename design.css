@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:#C6C6C6;
+    position: relative;
+
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav img{
+    height: 25px;
+    margin-right: 170px;
+}
+#navpart-1{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+#navpart-1 h4{
+    margin-right: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 450;
+    
+}
+#navpart-2 i{
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 500;    
+}
+#contant{
+    height:calc(100% - 80px);
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+ #left{
+    height: 100%;
+    width: 40%;
+    /* background-color: pink; */
+
+}
+#left h5{
+    padding-top: 70px;
+    padding-left: 65px;
+    font-size: 15px;
+    margin-bottom: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #3b3b3b;    
+}
+
+
+#left h1{
+    padding-left: 60px;
+    font-size: 70px;
+    text-transform: uppercase;
+    
+
+}
+#left h2{
+    padding-left: 65px;
+    padding-top: 15px;
+    font-size: 50px;
+    font-weight: 400;
+    width: 90%;
+    color: #161616;
+
+}
+#left button{
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 25px;
+    margin-left: 70px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 50px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+
+#left button:hover{
+    transition:0.7;
+    background-color: #3b3b3b;
+}
+
+ #right{
+    height: 100%;
+    width: 60%;
+    position: relative;
+    padding: 120px;
+    white-space: nowrap;
+    overflow-x: auto;
+    
+}
+#right::-webkit-scrollbar{
+    display: none;
+}
+#right .eleam {
+    height: 320px;
+    width: 250px;
+    background-color: #F6F6F6;
+    position: relative;
+    border-radius: 2px;
+    display: inline-block;
+    margin-left:10px;
+    box-shadow: 0 5px 10px rgba(0, 0,0, 0.5);
+    
+}
+.eleam img{
+    position: absolute;
+    height: 70%;
+    top: 12%;
+    width: 100%;
+    object-fit: cover;
+}
+.eleam h4{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    background-color:#929292;
+    padding: 6px 20px;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight:500;
+    border-radius: 3px;
+}
+.eleam h5{
+    position: absolute;
+    bottom:10.5%;
+    right: 0%;
+    font-size: 15px;
+    font-weight: 200;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: #000;
+    padding: 7px 17px;
+    border: none;
+    border-radius:2px;
+}
